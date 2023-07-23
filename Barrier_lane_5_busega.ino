@@ -1,13 +1,13 @@
+//These are IO pins descriptions
+const int ups = 8;  //Up state for up position indication(optional)
+const int upo = 10;  // up out drive signal
+const int dowo = 11; // down out drive signal
+const int com = 12; // common for up out and down out. it is active for both up cycle and down cycle
 
-const int ups = 8;
-const int upo = 10;
-const int dowo = 11;
-const int com = 12;
-
-const int upi = A3;
-const int dowi = A2;
-const int upl = A5;
-const int dowl = A1;
+const int upi = A3; //up input signal
+const int dowi = A2; // down input signal
+const int upl = A5; // up limit switch (optional)
+const int dowl = A1; // down limit switch (optional)
 
 
 void setup() 
